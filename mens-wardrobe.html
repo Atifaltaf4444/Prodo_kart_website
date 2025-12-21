@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mens Wardrobe</title>
+    <link rel="website icon" type="png" href="icons/online-shop.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="Style.css" rel="stylesheet" />
+  </head>
+  <body class="mens-wardrobe-main">
+    <!-- Bootstrap Links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (el) => new bootstrap.Tooltip(el)
+      );
+    </script>
+
+    <!-- Main Content -->
+    <div class="mens-heading-container">
+      <h1>Mens Wardrobe</h1>
+    </div>
+
+    <!-- Navbar -->
+    <div class="mens-navbar">
+      <div class="inside-nav">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html"><i class="fa fa-arrow-left">Home</i></a>
+            </li>
+            <li>
+              <a href="products.html"><i class="fa fa-archive">Products</i></a>
+            </li>
+            <li>
+              <a href="order.html"><i class="fa fa-shopping-cart">Cart</i></a>
+            </li>
+
+            <li>
+              <a
+                ><input type="search" placeholder="  Search here" />
+                <i class="fa fa-search text-white"></i>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                More items
+              </a>
+              <ul class="dropdown-menu bg-secondary">
+                <li>
+                  <a class="dropdown-item" href="mens-jackets.html">Jackets</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="mens-pants.html">Pants</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="mens-shoes.html">Shoes</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="mens-accessories.html"
+                    >Accessories</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="mens-kurta.html"
+                    >Kurta Pyjama</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="mens-polo.html"
+                    >Polo T-shirts</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="log">
+              <a href="log-in.html"
+                ><i class="fa fa-sign-in">Login/SignUp</i></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="fs-4 text-white ms-5">
+      <p>Select what you want.</p>
+    </div>
+
+    <div class="fs-1 text-white t-shirt">
+      <p>T-Shirts</p>
+    </div>
+
+    <!-- Product Section -->
+    <div class="container-fluid bg-dark p-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/t shirt1.jpg"
+              class="card-img-top"
+              alt="blue stripped t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Blue Stripped T-shirt</h5>
+              <p class="card-text">
+                Stylish blue horizontal stripped half sleeves summer men's
+                t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">550/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/tshirt2.jpg"
+              class="card-img-top"
+              alt="light blue printed t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Light Blue Printed T-Shirt</h5>
+              <p class="card-text">
+                Stylish light blue printed half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">499/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/t shirt3.jpg"
+              class="card-img-top"
+              alt="dark grey t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dark Grey T-Shirt</h5>
+              <p class="card-text">
+                Stylish dark grey plain half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">399/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/t shirt4.jpg"
+              class="card-img-top"
+              alt="maroon t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Maroon T-Shirt</h5>
+              <p class="card-text">
+                Stylish maroon plain half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">399/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark p-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/t shirt5.jpg"
+              class="card-img-top"
+              alt="skyblue t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Skyblue T-Shirt</h5>
+              <p class="card-text">
+                Stylish skyblue half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">360/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/t shirt6.jpg"
+              class="card-img-top"
+              alt="yellow t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yellow T-Shirt</h5>
+              <p class="card-text">
+                Stylish plain yellow half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">450/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/t shirt7.jpg"
+              class="card-img-top"
+              alt="black printed t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Printed Black T-Shirt</h5>
+              <p class="card-text">
+                Stylish black printed half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">599/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/t shirt8.jpg"
+              class="card-img-top"
+              alt="lime t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lime T-Shirt</h5>
+              <p class="card-text">
+                Stylish lime half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">300/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark p-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/t shirt9.jpg"
+              class="card-img-top"
+              alt="white t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">White T-Shirt</h5>
+              <p class="card-text">
+                Stylish plain white half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">399/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/t shirt10.jpg"
+              class="card-img-top"
+              alt="light grey t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Light Grey T-Shirt</h5>
+              <p class="card-text">
+                Stylish light grey half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">340/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/tshirt11.jpg"
+              class="card-img-top"
+              alt="white printed loose t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">White Printed Loose T-Shirt</h5>
+              <p class="card-text">
+                Stylish white loose printed half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">799/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/tshirt12.jpg"
+              class="card-img-top"
+              alt="white printed t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">White Printed T-Shirt</h5>
+              <p class="card-text">
+                Stylish white printed half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">660/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark p-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/tshirt13.jpg"
+              class="card-img-top"
+              alt="dual coloured t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dual Coloured T-Shirt</h5>
+              <p class="card-text">
+                Stylish dual coloured grey/maroon half sleeves summer men's
+                t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">599/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/tshirt14.jpg"
+              class="card-img-top"
+              alt="tripple tone t-shirt"
+              style="border-radius: 20px; height: 266px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Tripple Coloured T-Shirt</h5>
+              <p class="card-text">
+                Stylish maroon/white/navy blue tripple coloured half sleeves
+                summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">210/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card mens-card" style="width: 18rem">
+            <img
+              src="Prodo images Mens/T-shirts/tshirt15.jpg"
+              class="card-img-top"
+              alt="beige t-shirt"
+              style="border-radius: 20px; height: 290px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Beige T-Shirt</h5>
+              <p class="card-text">
+                Stylish plain beige half sleeves summer men's t-shirt.
+              </p>
+              <div class="ms-3 mb-4">
+                <label for="price">Add Qty</label>
+                <select>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <span style="font-size: 20px; margin-left: 20px">399/-rs</span>
+              </div>
+              <a href="cart.html" class="btn btn-primary ms-3 order-now-btn"
+                >Order Now</a
+              >
+              <a href="cart.html" class="btn btn-primary ms-3 cart-btn"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Mens Sale  -->
+    <div class="mens-sale bg-dark text-white">
+      <h1>Super Sale is Live now!</h1>
+      <p>Get 30% off on these Products</p>
+      <div class="mens-paragraph">
+        <p>Click on these Products to see what's hidden ;)</p>
+      </div>
+    </div>
+
+    <div class="mens-hidden-wrapper bg-dark pb-5">
+      <div class="hidden-card pb-5">
+        <div
+          class="img"
+          style="
+            --img: url('prodo images mens/jackets/green bomber jacket.jpg');
+          "
+        ></div>
+        <div class="content">
+          <h3>
+            Green Bomber Jacket<br /><span style="text-decoration: line-through"
+              >999/-rs</span
+            ><span style="font-size: 16px; margin-left: 8px">699/-rs</span>
+          </h3>
+          <p>Stylish Green bomber jacket.</p>
+        </div>
+      </div>
+
+      <div class="hidden-card pb-5">
+        <div
+          class="img"
+          style="--img: url('prodo images mens/sneakers/sneaker4.jpg')"
+        ></div>
+        <div class="content">
+          <h3>
+            Olive Green Sneaker<br /><span style="text-decoration: line-through"
+              >799/-rs</span
+            ><span style="font-size: 16px; margin-left: 8px">577/-rs</span>
+          </h3>
+          <p>Men's olive green stylish sneakers.</p>
+        </div>
+      </div>
+      <div class="hidden-card pb-5">
+        <div
+          class="img"
+          style="--img: url('prodo images mens/pants/white linen pants.jpg')"
+        ></div>
+        <div class="content">
+          <h3>
+            White Linen<br />
+            Pants<br /><span style="text-decoration: line-through"
+              >1270/-rs</span
+            ><span style="font-size: 16px; margin-left: 8px">999/-rs</span>
+          </h3>
+          <p>Stylish Linen Pants for mens.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark">
+      <a href="mens-jackets.html"
+        ><button class="more-items">More items</button></a
+      >
+    </div>
+
+    <div class="mens-end-pg bg-dark">
+      <h2>End Of Page</h2>
+    </div>
+  </body>
+</html>

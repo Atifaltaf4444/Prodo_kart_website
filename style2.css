@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+}
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 95px;
+}
+.wrapper {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 30px 55px rgba(0, 0, 0, 0.5);
+  width: 800px;
+  max-width: 100%;
+  display: flex;
+  overflow: hidden;
+  border: 5px solid white;
+}
+.form-container {
+  width: 50%;
+  padding: 40px;
+  transition: all 0.3s ease;
+}
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border 0.3 ease;
+}
+.form-container input:focus {
+  border: 2px solid #764ba2;
+  outline: none;
+}
+.form-container button.submit-btn {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  border: none;
+  cursor: pointer;
+  transition: background 0.6 ease;
+  margin-top: 15px;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.form-container button.submit-btn:hover {
+  background: linear-gradient(to left, #667eea, #764ba2);
+}
+.toggle-container {
+  width: 50%;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 40px;
+}
+.toggle-container h2 {
+  margin-bottom: 20px;
+}
+.toggle-container p {
+  margin-bottom: 20px;
+}
+.toggle-container button.switch-btn {
+  border-radius: 10px;
+  color: white;
+  background-color: transparent;
+  padding: 8px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.6 ease;
+  margin-top: 5px;
+  border: 2px solid white;
+}
+.toggle-container button.switch-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/*HIDE ONE FORM BY DEFAULT*/
+.form-container.signin {
+  display: none;
+}
+.wrapper.active .form-container.login {
+  display: none;
+}
+.wrapper.active .form-container.signin {
+  display: block;
+}
+/*forgot password&terms*/
+.forgot-password {
+  color: #764ba2;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  align-self: flex-start;
+  text-decoration: underline;
+}
+.accept-terms {
+  margin: 10px 0 0 0;
+  font-size: 0.9rem;
+  user-select: none;
+}
+.accept-terms input[type="checkbox"] {
+  margin-right: 8px;
+}
+.back-to-home {
+  position: relative;
+  top: 220px;
+  right: 460px;
+  margin-top: 80px;
+}
+.back-to-home > button {
+  padding: 5px 12px;
+  background-color: #6c3ba1;
+  border-radius: 8px;
+  color: white;
+  border: 1px solid #764ba2;
+}
+.back-to-home > button a {
+  color: #fff;
+  padding: 20px 45px 20px 45px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.back-to-home > button:hover {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  border: 1px solid white;
+}

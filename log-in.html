@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="" />
+    <title>Login & Sign Up</title>
+    <link rel="website icon" type="png" href="icons/online-shop.png" />
+
+    <link href="style2.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper" id="formWrapper">
+      <!-- login form   -->
+      <div class="form-container login">
+        <h2>Login!</h2>
+        <form>
+          <input type="email" placeholder="Email,Username..." required />
+          <input type="password" placeholder="Password" required />
+          <div class="forgot-password" tabindex="0">Forgot Password?</div>
+          <button type="submit" class="submit-btn">Login</button>
+        </form>
+      </div>
+
+      <!--Sign Up Form-->
+      <div class="form-container signin">
+        <h2>Sign Up!</h2>
+        <form>
+          <input type="text" placeholder="Username" required />
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Password" required />
+          <input type="password" placeholder=" Confirm Password" required />
+          <label class="accept-terms">
+            <input type="checkbox" required />I accept the terms & conditions
+          </label>
+          <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+      </div>
+
+      <!--Right side toggle-->
+      <div class="toggle-container">
+        <h2 id="toggleHeading">Don't Have An Account?</h2>
+        <p id="toggleText">Sign Up to get started!</p>
+        <button class="switch-btn" id="toggleBtn">Sign Up</button>
+      </div>
+    </div>
+    <script>
+      const wrapper = document.getElementById("formWrapper");
+      const toggleBtn = document.getElementById("toggleBtn");
+      const toggleHeading = document.getElementById("toggleHeading");
+      const toggleText = document.getElementById("toggleText");
+
+      toggleBtn.addEventListener("click", () => {
+        wrapper.classList.toggle("active");
+
+        if (wrapper.classList.contains("active")) {
+          toggleHeading.textContent = "Already Have An Account?";
+          toggleText.textContent = "Login to your account!";
+          toggleBtn.textContent = "login";
+        } else {
+          toggleHeading.textContent = "Don't Have An Account?";
+          toggleText.textContent = "Sign Up to get started!";
+          toggleBtn.textContent = "Sign Up";
+        }
+      });
+    </script>
+    <div class="back-to-home">
+      <button>
+        <i class="fa fa-home"> <a href="index.html"> Home</a></i>
+      </button>
+    </div>
+  </body>
+</html>
