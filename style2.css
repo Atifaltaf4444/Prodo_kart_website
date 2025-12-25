@@ -148,3 +148,69 @@ body {
                     MEDIA  RESPONSIVE
   ===================================================**/
 
+@media (max-width: 600px) {
+  body {
+    margin-left: 0;
+    height: auto;
+    padding: 20px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .form-container,
+  .toggle-container {
+    width: 100%;
+    padding: 25px;
+  }
+
+  .toggle-container {
+    order: -1; /* show toggle section on top */
+  }
+
+  .back-to-home {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .back-to-home > button a {
+    padding: 10px 20px;
+  }
+}
+
+/****tablet *****/
+@media (max-width: 900px) {
+  body {
+    margin-left: 0;
+    padding: 30px;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .form-container,
+  .toggle-container {
+    padding: 30px;
+  }
+
+  .back-to-home {
+    position: static;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+/*small laptops*/
+@media (max-width: 1200px) {
+  body {
+    margin-left: 0;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
+}
