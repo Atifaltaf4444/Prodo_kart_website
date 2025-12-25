@@ -147,7 +147,7 @@ body {
 /**===========================================================
                     MEDIA  RESPONSIVE
   ===================================================**/
-@media (max-width: 360px) {
+@media (max-width: 600px) {
   body {
     background: linear-gradient(135deg, #667eea, #764ba2);
     display: flex;
@@ -160,7 +160,7 @@ body {
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 30px 55px rgba(0, 0, 0, 0.5);
-    width:250px;
+    width: 250px;
     max-width: 100%;
     display: flex;
     overflow: hidden;
