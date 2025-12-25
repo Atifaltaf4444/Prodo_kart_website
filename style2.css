@@ -147,24 +147,36 @@ body {
 /**===========================================================
                     MEDIA  RESPONSIVE
   ===================================================**/
-@media (max-width:600px) {
+@media (max-width: 605px) {
   body {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin-left: 95px;
-}
-.wrapper {
-  background: #fff;
-  border-radius: 20px;
-  box-shadow: 0 30px 55px rgba(0, 0, 0, 0.5);
-  width: 500px;
-  max-width: 100%;
-  display: flex;
-  overflow: hidden;
-  border: 5px solid white;
-}
-
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 95px;
+  }
+  .wrapper {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 30px 55px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+    overflow: hidden;
+    border: 5px solid white;
+    font-size: 10px;
+  }
+  .toggle-container {
+    width: 5px;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 40px;
+  }
 }
