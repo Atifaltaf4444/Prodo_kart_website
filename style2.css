@@ -148,7 +148,7 @@ body {
                     MEDIA  RESPONSIVE
   ===================================================**/
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .wrapper {
     flex-direction:row;
     width: 90%;
