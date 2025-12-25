@@ -148,46 +148,51 @@ body {
                     MEDIA  RESPONSIVE
   ===================================================**/
 
-
- @media (max-width: 600px) {
+@media (max-width: 600px) {
   body {
     margin-left: 0;
-    height: auto;
-    padding: 20px;
+    padding: 15px;
   }
 
   .wrapper {
-    flex-direction: column;
+    flex-direction: row; /* KEEP side-by-side */
     width: 100%;
-    border-radius: 15px;
-  }
-
-  .form-container,
-  .toggle-container {
-    width: 100%;
-    padding: 25px;
-  }
-
-  /* Toggle stays AFTER the form (right → bottom on mobile) */
-  .toggle-container {
-    order: 1;
   }
 
   .form-container {
-    order: 0;
+    width: 70%; /* form is wider */
+    padding: 20px;
+  }
+
+  .toggle-container {
+    width: 30%; /* toggle stays on right */
+    padding: 15px;
+  }
+
+  .toggle-container h2 {
+    font-size: 1rem;
+  }
+
+  .toggle-container p {
+    font-size: 0.8rem;
+  }
+
+  .toggle-container button.switch-btn {
+    padding: 6px 12px;
+    font-size: 0.75rem;
   }
 
   .back-to-home {
-    position: static;
-    margin-top: 20px;
-    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .back-to-home > button a {
-    padding: 10px 20px;
+    padding: 10px 25px;
   }
 }
-
 
 /****tablet *****/
 @media (max-width: 900px) {
