@@ -160,12 +160,12 @@ body {
   }
 
   .form-container {
-    width: 70%; /* form is wider */
+    width: 100%; /* form is wider */
     padding: 20px;
   }
 
   .toggle-container {
-    width: 30%; /* toggle stays on right */
+    width: 70%; /* toggle stays on right */
     padding: 15px;
   }
 
@@ -185,7 +185,8 @@ body {
   .back-to-home {
     position: relative;
   top:200px;
-  
+  left: -189px;
+
 
   }
 
