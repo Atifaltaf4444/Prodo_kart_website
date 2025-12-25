@@ -148,9 +148,9 @@ body {
                     MEDIA  RESPONSIVE
   ===================================================**/
 
-@media (max-width: 968px) {
+@media (max-width: 768px) {
   .wrapper {
-    flex-direction:row;
+    flex-direction: row;
     width: 90%;
   }
   .form-container,
@@ -159,8 +159,11 @@ body {
     padding: 20px;
   }
   .back-to-home {
-    top: 20px;
-    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
     text-align: center;
   }
 }
