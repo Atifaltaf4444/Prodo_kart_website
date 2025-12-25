@@ -159,11 +159,9 @@ body {
     padding: 20px;
   }
   .back-to-home {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: baseline;
-    align-items: baseline;
+    position: relative;
+    left: 0;
+    top: 100px;
     text-align: center;
   }
 }
