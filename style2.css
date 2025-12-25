@@ -155,10 +155,10 @@ body {
   }
   .form-container,
   .toggle-container {
-    width: 100%;
+    width: 150%;
     padding: 40px;
     transition: all 0.3s ease;
-    width: 50%;
+
     background: linear-gradient(to right, #667eea, #764ba2);
     color: white;
     text-align: center;
