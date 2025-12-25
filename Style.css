@@ -1409,7 +1409,7 @@
   .mens-heading-container {
     background-repeat: repeat-y;
     background-size: cover;
-    font-size: 10px;
+    font-size: 50px;
 
     @keyframes call {
       to {
