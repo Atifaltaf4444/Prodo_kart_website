@@ -1402,20 +1402,17 @@
     width: 90%;
     left: 0;
   }
-.more-items{
-  margin-left: 111px;
-}
+  .more-items {
+    margin-left: 111px;
+  }
 
-
-
-
-
-
-
-
-
-
-
+  .mens-heading-container {
+    @keyframes call {
+      to {
+        background-position-y: -400px;
+      }
+    }
+  }
 
   .p-1 {
     width: 90%;
