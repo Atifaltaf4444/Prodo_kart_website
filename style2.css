@@ -147,83 +147,24 @@ body {
 /**===========================================================
                     MEDIA  RESPONSIVE
   ===================================================**/
-
-@media (max-width: 600px) {
+@media (max-width:600px) {
   body {
-    margin-left: 0;
-    padding: 15px;
-  }
-
-  .wrapper {
-    flex-direction: row; /* KEEP side-by-side */
-    width: 100%;
-  }
-
-  .form-container {
-    width: 100%; /* form is wider */
-    padding: 20px;
-  }
-
-  .toggle-container {
-    width: 70%; /* toggle stays on right */
-    padding: 15px;
-  }
-
-  .toggle-container h2 {
-    font-size: 1rem;
-  }
-
-  .toggle-container p {
-    font-size: 0.8rem;
-  }
-
-  .toggle-container button.switch-btn {
-    padding: 6px 12px;
-    font-size: 0.75rem;
-  }
-
-  .back-to-home {
-    position: relative;
-  top:200px;
-  left: -189px;
-
-
-  }
-
-  .back-to-home > button a {
-    padding: 10px 25px;
-  }
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 95px;
+}
+.wrapper {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 30px 55px rgba(0, 0, 0, 0.5);
+  width: 800px;
+  max-width: 100%;
+  display: flex;
+  overflow: hidden;
+  border: 5px solid white;
 }
 
-/****tablet *****/
-@media (max-width: 900px) {
-  body {
-    margin-left: 0;
-    padding: 30px;
-  }
-
-  .wrapper {
-    width: 100%;
-  }
-
-  .form-container,
-  .toggle-container {
-    padding: 30px;
-  }
-
-  .back-to-home {
-    position: static;
-    margin-top: 30px;
-    text-align: center;
-  }
-}
-/*small laptops*/
-@media (max-width: 1200px) {
-  body {
-    margin-left: 0;
-  }
-
-  .wrapper {
-    width: 90%;
-  }
 }
