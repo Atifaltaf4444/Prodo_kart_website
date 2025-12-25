@@ -148,27 +148,3 @@ body {
                     MEDIA  RESPONSIVE
   ===================================================**/
 
-@media (max-width: 768px) {
-  .wrapper {
-    flex-direction: row;
-    width: 150%;
-  }
-  .form-container,
-  .toggle-container {
-    width: 600px;
-    padding: 40px;
-    transition: all 0.3s ease;
-
-    background: linear-gradient(to right, #667eea, #764ba2);
-    color: white;
-    text-align: center;
-    position: relative;
-    padding: 40px;
-  }
-  .back-to-home {
-    position: relative;
-    left: -120px;
-    top: 230px;
-    text-align: center;
-  }
-}
