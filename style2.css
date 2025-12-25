@@ -144,3 +144,23 @@ body {
   background: linear-gradient(to right, #667eea, #764ba2);
   border: 1px solid white;
 }
+/**===========================================================
+                    MEDIA  RESPONSIVE
+  ===================================================**/
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    width: 90%;
+  }
+  .form-container,
+  .toggle-container {
+    width: 100%;
+    padding: 20px;
+  }
+  .back-to-home {
+    top: 20px;
+    right: 0;
+    text-align: center;
+  }
+}
