@@ -155,13 +155,14 @@ body {
   }
   .form-container,
   .toggle-container {
-    width: 100%;
-    padding: 20px;
+     width: 50%;
+  padding: 40px;
+  transition: all 0.3s ease;
   }
   .back-to-home {
     position: relative;
-    left: 0;
-    top: 200px;
+    left: 50px;
+    top: 250px;
     text-align: center;
   }
 }
