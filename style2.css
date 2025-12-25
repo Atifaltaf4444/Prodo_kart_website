@@ -155,23 +155,19 @@ body {
   }
   .form-container,
   .toggle-container {
-     width: 50%;
-  padding: 40px;
-  transition: all 0.3s ease;
-   width: 50%;
-  background: linear-gradient(to right, #667eea, #764ba2);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  padding: 40px;
+    width: 50%;
+    padding: 40px;
+    transition: all 0.3s ease;
+    width: 50%;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 40px;
   }
   .back-to-home {
     position: relative;
-    left: 250px;
+    left: -150px;
     top: 250px;
     text-align: center;
   }
