@@ -148,7 +148,8 @@ body {
                     MEDIA  RESPONSIVE
   ===================================================**/
 
-@media (max-width: 600px) {
+
+ @media (max-width: 600px) {
   body {
     margin-left: 0;
     height: auto;
@@ -156,7 +157,7 @@ body {
   }
 
   .wrapper {
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     border-radius: 15px;
   }
@@ -166,14 +167,18 @@ body {
     width: 100%;
     padding: 25px;
   }
-  /*
+
+  /* Toggle stays AFTER the form (right → bottom on mobile) */
   .toggle-container {
-  }*/
+    order: 1;
+  }
+
+  .form-container {
+    order: 0;
+  }
 
   .back-to-home {
-    position: relative;
-    top:150px;
-    
+    position: static;
     margin-top: 20px;
     text-align: center;
   }
@@ -182,6 +187,7 @@ body {
     padding: 10px 20px;
   }
 }
+
 
 /****tablet *****/
 @media (max-width: 900px) {
