@@ -156,7 +156,7 @@ body {
   }
 
   .wrapper {
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     border-radius: 15px;
   }
@@ -165,10 +165,11 @@ body {
   .toggle-container {
     width: 100%;
     padding: 25px;
+    order: 0;
   }
 
   .toggle-container {
-    order: -1; /* show toggle section on top */
+    order: 1; /* show toggle section on top */
   }
 
   .back-to-home {
