@@ -1409,7 +1409,8 @@
   .mens-heading-container {
     background-repeat: repeat-y;
     background-size: cover;
-    font-size: 5px;
+    animation: call 3s linear infinite;
+    
 
     @keyframes call {
       to {
