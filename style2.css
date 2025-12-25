@@ -171,7 +171,9 @@ body {
   }*/
 
   .back-to-home {
-    position: static;
+    position: relative;
+    top:150px;
+    
     margin-top: 20px;
     text-align: center;
   }
