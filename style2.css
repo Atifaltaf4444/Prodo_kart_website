@@ -184,9 +184,8 @@ body {
 
   .back-to-home {
     position: relative;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+  top:150px;
+  
   }
 
   .back-to-home > button a {
