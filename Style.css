@@ -1407,11 +1407,14 @@
   }
 
   .mens-heading-container {
+   background-repeat: repeat-y;
+
     @keyframes call {
       to {
-        background-position-y: -400px;
+        background-position-y: -200px;
       }
     }
+    background-position: 110px;
   }
 
   .p-1 {
