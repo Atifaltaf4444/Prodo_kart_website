@@ -1260,140 +1260,179 @@
 /*==============================================================
                       MEDIA QUERIES
 ================================================================*/
-/* --- RESPONSIVE MEDIA QUERIES --- */
 
-/* Tablet and Small Laptops (1024px and below) */
+/* Tablet and Small Laptops (1024px) */
 @media screen and (max-width: 1024px) {
-    #home-img-container, 
-    #home-img-container2, 
-    #home-img-container3, 
-    #home-img-container4,
-    .prodo-main {
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+  #home-img-container,
+  #home-img-container2,
+  #home-img-container3,
+  #home-img-container4,
+  .prodo-main {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-    .p-1 {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        height: auto;
-        float: none;
-        padding-bottom: 20px;
-    }
+  .p-1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    float: none;
+    padding-bottom: 20px;
+  }
 }
 
-/* Mobile Devices (768px and below) */
+/* Mobile Devices (768px ) */
 @media screen and (max-width: 768px) {
-    /* Header and Navbar Adjustments */
-    .main-header-container, 
-    .product-header {
-        flex-direction: column;
-        text-align: center;
-    }
+  /* Header and Navbar */
+  .main-header-container,
+  .product-header {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .navbar > nav > ul, 
-    .prodo-nav > nav > ul,
-    .inside-nav > nav > ul {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-    }
+  .navbar > nav > ul,
+  .prodo-nav > nav > ul,
+  .inside-nav > nav > ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
 
-    .navbar > nav > ul > li, 
-    .prodo-nav > nav > ul > li,
-    .inside-nav > nav > ul > li {
-        margin: 10px 0;
-        display: block;
-    }
+  .navbar > nav > ul > li,
+  .prodo-nav > nav > ul > li,
+  .inside-nav > nav > ul > li {
+    margin: 10px 0;
+    display: block;
+  }
 
-    /* Reset Fixed Widths on Cards to be Fluid */
-    .img-setting1, .img-setting2, .img-setting3, .img-setting4, .img-setting5, .img-setting6,
-    .mens-img1, .mens-img2, .mens-img3, .mens-img4, .mens-img5, .mens-img6,
-    .womens-img1, .womens-img2, .womens-img3, .womens-img4, .womens-img5, .womens-img6,
-    .kids-img1, .kids-img2, .kids-img3, .kids-img4, .kids-img5, .kids-img6 {
-        width: 40%; /* Two cards per row on mobile */
-        margin-left: 5px;
-        margin-right: 5px;
-        height: auto;
-        min-height: 150px;
-    }
+  .img-setting1,
+  .img-setting2,
+  .img-setting3,
+  .img-setting4,
+  .img-setting5,
+  .img-setting6,
+  .mens-img1,
+  .mens-img2,
+  .mens-img3,
+  .mens-img4,
+  .mens-img5,
+  .mens-img6,
+  .womens-img1,
+  .womens-img2,
+  .womens-img3,
+  .womens-img4,
+  .womens-img5,
+  .womens-img6,
+  .kids-img1,
+  .kids-img2,
+  .kids-img3,
+  .kids-img4,
+  .kids-img5,
+  .kids-img6 {
+    width: 40%;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: auto;
+    min-height: 150px;
+  }
 
-    /* Adjust Hidden Cards for Mens Wardrobe */
-    .mens-hidden-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
+  /*  Hidden Cards  Mens Wardrobe */
+  .mens-hidden-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    /* Footer Adjustments */
-    .main-footer-container, .approx-footer {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
+  /* Footer  */
+  .main-footer-container,
+  .approx-footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
 
-    /* Product Page Specifics */
-    .prodo-main .prodo-img1, 
-    .prodo-main .prodo-img2, 
-    .prodo-main .prodo-img3 {
-        width: 80%;
-        height: auto;
-    }
+  /* Product Page  */
+  .prodo-main .prodo-img1,
+  .prodo-main .prodo-img2,
+  .prodo-main .prodo-img3 {
+    width: 80%;
+    height: auto;
+  }
 
-    /* Order/Cart Page Adjustments */
-    .order-body-wrapper {
-        top: 50px;
-        flex-direction: column;
-    }
-    
-    .order-body-main {
-        position: static;
-        margin-left: 0;
-        text-align: center;
-        margin-top: 20px;
-    }
+  /* Order/Cart  */
+  .order-body-wrapper {
+    top: 50px;
+    flex-direction: column;
+  }
 
-    .main-btn-container {
-        position: static;
-        margin-top: 40px;
-        flex-direction: column;
-        gap: 15px;
-    }
+  .order-body-main {
+    position: static;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
 
-    .home-btn button {
-        margin-left: 0;
-    }
+  .main-btn-container {
+    position: static;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 15px;
+  }
 
-    .cart-stars {
-        position: static;
-        margin-top: 10px;
-    }
-    
-    .more-items {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        width: fit-content;
-    }
+  .home-btn button {
+    margin-left: 0;
+  }
+
+  .cart-stars {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .more-items {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+  }
 }
 
 /* Extra Small Devices (480px and below) */
 @media screen and (max-width: 480px) {
-    .brand-title {
-        font-size: 22px;
-    }
+  .brand-title {
+    font-size: 22px;
+  }
 
-    /* One card per row for very small screens */
-    .img-setting1, .img-setting2, .img-setting3, .img-setting4, .img-setting5, .img-setting6,
-    .mens-img1, .mens-img2, .mens-img3, .mens-img4, .mens-img5, .mens-img6,
-    .womens-img1, .womens-img2, .womens-img3, .womens-img4, .womens-img5, .womens-img6,
-    .kids-img1, .kids-img2, .kids-img3, .kids-img4, .kids-img5, .kids-img6 {
-        width: 90%;
-    }
+  /* One card per row for very small screens */
+  .img-setting1,
+  .img-setting2,
+  .img-setting3,
+  .img-setting4,
+  .img-setting5,
+  .img-setting6,
+  .mens-img1,
+  .mens-img2,
+  .mens-img3,
+  .mens-img4,
+  .mens-img5,
+  .mens-img6,
+  .womens-img1,
+  .womens-img2,
+  .womens-img3,
+  .womens-img4,
+  .womens-img5,
+  .womens-img6,
+  .kids-img1,
+  .kids-img2,
+  .kids-img3,
+  .kids-img4,
+  .kids-img5,
+  .kids-img6 {
+    width: 90%;
+  }
 
-    .t-shirt > p {
-        font-size: 35px;
-    }
+  .t-shirt > p {
+    font-size: 35px;
+  }
 }
