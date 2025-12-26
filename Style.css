@@ -1357,6 +1357,39 @@
    576px (Mobile devices)
    ========================== */
 @media (max-width: 576px) {
+  @media (max-width: 600px) {
+    .cart-navbar ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .cart-navbar ul li input[type="search"] {
+      width: 100%;
+    }
+
+    .navbar-2 {
+      flex-direction: column;
+    }
+
+    .navbar-2 p {
+      padding-right: 0 !important;
+      font-size: 16px !important;
+    }
+
+    .p-1 {
+      padding: 15px;
+    }
+
+    .cart-stars {
+      position: static !important;
+      margin-top: 10px;
+    }
+
+    .cart-button {
+      width: 100%;
+    }
+  }
+
   .brand-title {
     font-size: 22px;
   }
@@ -1410,7 +1443,6 @@
     background-repeat: repeat-y;
     background-size: cover;
     animation: call 3s linear infinite;
-    
 
     @keyframes call {
       to {
@@ -1418,8 +1450,6 @@
       }
     }
     background-position: 100px;
-
-
   }
 
   .p-1 {
