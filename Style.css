@@ -978,11 +978,12 @@
   align-items: center;
   gap: 40px;
   padding-bottom: 130px;
+  justify-content: center;
 }
 .hidden-card {
   margin-top: 54px;
   position: relative;
-  left: 120px;
+
   box-shadow: 0 6px 10px 9px rgb(160, 158, 158);
   padding-bottom: 30px;
 }
@@ -1256,4 +1257,191 @@
   z-index: 0;
   box-shadow: 40px 0 100px #008cff70, -40px 0 100px #e100ff6e;
 }
+/*==============================================================
+                      MEDIA QUERIES
+================================================================*/
 
+@media (max-width: 600px) {
+  /* Header & Navbar */
+  .main-header-container,
+  .product-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar nav ul,
+  .prodo-nav nav ul,
+  .inside-nav nav ul,
+  .cart-navbar nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar nav ul li,
+  .prodo-nav nav ul li {
+    margin-left: 0;
+  }
+
+  .navbar input[type="search"],
+  .cart-navbar input[type="search"] {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  /* Image/Card Containers */
+  #home-img-container,
+  #home-img-container2,
+  #home-img-container3,
+  #home-img-container4,
+  .prodo-main,
+  .container-product,
+  .mens-hidden-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  /* Cards */
+  .img-setting1,
+  .img-setting2,
+  .img-setting3,
+  .img-setting4,
+  .img-setting5,
+  .img-setting6,
+  .mens-img1,
+  .mens-img2,
+  .mens-img3,
+  .mens-img4,
+  .mens-img5,
+  .mens-img6,
+  .womens-img1,
+  .womens-img2,
+  .womens-img3,
+  .womens-img4,
+  .womens-img5,
+  .womens-img6,
+  .kids-img1,
+  .kids-img2,
+  .kids-img3,
+  .kids-img4,
+  .kids-img5,
+  .kids-img6,
+  .hidden-card {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  /* Buttons */
+  .home-to-product-btn button,
+  .order-btn button,
+  .home-btn button,
+  .cart-button {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  /* Text Scaling */
+  .brand-title,
+  .prodo-title {
+    font-size: 22px;
+  }
+
+  .mens-heading-container h1 {
+    font-size: 38px;
+    margin-left: 0;
+  }
+
+  /* Footer */
+  .approx-footer,
+  .main-footer-container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  /* Cart Page */
+  .p-1 {
+    width: 95%;
+    margin: 20px auto;
+    float: none;
+  }
+
+  .cart-stars {
+    left: 0;
+    text-align: center;
+  }
+
+  .more-items {
+    margin: 20px auto;
+    display: block;
+  }
+}
+@media (min-width: 601px) and (max-width: 992px) {
+  /* Containers wrap nicely */
+  #home-img-container,
+  #home-img-container2,
+  #home-img-container3,
+  #home-img-container4,
+  .prodo-main,
+  .mens-hidden-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Cards */
+  .img-setting1,
+  .img-setting2,
+  .img-setting3,
+  .img-setting4,
+  .img-setting5,
+  .img-setting6,
+  .mens-img1,
+  .mens-img2,
+  .mens-img3,
+  .mens-img4,
+  .mens-img5,
+  .mens-img6,
+  .womens-img1,
+  .womens-img2,
+  .womens-img3,
+  .womens-img4,
+  .womens-img5,
+  .womens-img6,
+  .kids-img1,
+  .kids-img2,
+  .kids-img3,
+  .kids-img4,
+  .kids-img5,
+  .kids-img6 {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .hidden-card {
+    width: 280px;
+  }
+
+  /* Navbar spacing */
+  .navbar nav ul li,
+  .prodo-nav nav ul li {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 993px) {
+  #home-img-container,
+  #home-img-container2,
+  #home-img-container3,
+  #home-img-container4 {
+    flex-wrap: wrap;
+  }
+
+  .prodo-main {
+    justify-content: space-evenly;
+  }
+
+  .mens-hidden-wrapper {
+    justify-content: center;
+  }
+}
