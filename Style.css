@@ -596,12 +596,7 @@
   color: #222;
   font-weight: bold;
 }
-.watch-set {
-  position: relative;
-  right: -400px;
-  bottom: 395px;
-  left: 237px;
-}
+
 .arivals-container {
   text-align: center;
   margin-top: 45px;
@@ -1237,25 +1232,15 @@
   padding: 1em 2em;
   border: none;
   border-radius: 1000px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-  position: relative;
-}
-.more-items::after {
-  content: "";
-  position: absolute;
-  translate: -77% -30%;
-  background-image: linear-gradient(to bottom right, #008cff, #e100ff);
-  height: 108%;
-  width: 103%;
-  border-radius: 1000px;
-  z-index: -1;
 }
 
 .more-items:hover {
-  z-index: 0;
   box-shadow: 40px 0 100px #008cff70, -40px 0 100px #e100ff6e;
+}
+.arrivals-img img {
+  display: inline;
+  max-width: 70%;
+  margin-bottom: 140px;
 }
 /*==============================================================
                       MEDIA QUERIES
@@ -1291,6 +1276,21 @@
   .product-header {
     flex-direction: column;
     text-align: center;
+  }
+  .arrivals-img img {
+    width: 88px;
+    height: 100px;
+    margin-top: 40px;
+  }
+
+  .more-items {
+    margin-left: 120px;
+    text-decoration: underline rgb(10, 6, 6);
+    box-shadow: 1px 1px 10px rgb(87, 87, 87);
+  }
+
+  .more-items:hover {
+    box-shadow: 40px 0 100px #008cffbb, -40px 0 100px #e100ff6e;
   }
 
   .navbar > nav > ul,
@@ -1332,11 +1332,12 @@
   .kids-img4,
   .kids-img5,
   .kids-img6 {
-    width: 40%;
+    width: 24px;
     margin-left: 5px;
     margin-right: 5px;
     height: auto;
     min-height: 150px;
+    margin-top: 20px;
   }
 
   /*  Hidden Cards  Mens Wardrobe */
