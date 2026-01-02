@@ -1315,9 +1315,22 @@ html {
   font-size: 39px;
   margin-left: 16px;
 }
+.cart-section img{
+width:320px;
+height: 240px;
+}
+.cart-section p{
+font-size: 23px;
+width: 175px;
+}
+.cart-section  button{
+  position: relative;
+  bottom:10px;
+  left: 20px;
 
 
 
+}
 
 
 
