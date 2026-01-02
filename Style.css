@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+html {
+  scroll-behavior: smooth;
+}
 .main-header-container {
   background: linear-gradient(to right, rgb(11, 11, 105), rgb(240, 240, 240));
   padding: 10px;
@@ -46,6 +49,7 @@
   background: linear-gradient(to bottom right, #001eff, #b59db9);
   padding-bottom: 22px;
 }
+
 .whole-body {
   background: linear-gradient(to top, rgb(25, 25, 152), lightgrey);
   background-attachment: fixed;
@@ -1277,6 +1281,16 @@
     flex-direction: column;
     text-align: center;
   }
+  .menu-btn {
+    display: block;
+  }
+  .mens-navbar {
+    background-color: #535252;
+    position: relative;
+    top: 0;
+    z-index: 0;
+  }
+
   .arrivals-img img {
     width: 88px;
     height: 100px;
